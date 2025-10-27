@@ -7,7 +7,7 @@
 
 // variables
 let distanceToObject: number = 0
-let strip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
+const strip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
 
 //setup
 basic.showIcon(IconNames.Happy)
